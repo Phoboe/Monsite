@@ -1,0 +1,121 @@
+@font-face {
+    font-family: nunitoregular;
+    src: url('../../Fonts/nunito/nunito-regular-webfont.woff2') format('woff2'),
+         url('../../Fonts/nunito/nunito-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+h1, h2, h3, h4, h5, h6
+{
+  margin: inherit;
+}
+
+h1 {font-size: 3;}
+h2 {font-size: 2.75em;}
+h3 {font-size: 2.5em;}
+h4 {font-size: 2.25em;}
+h5 {font-size: 2em;}
+h6 {font-size: 1.75em;}
+
+body
+{
+  font-family: nunitoregular, system-ui;
+  margin: 0;
+  background-color: #D8D8D8;
+}
+
+div
+{
+  /*border: 1px black dotted;*/
+  display: flex;
+  flex-direction: row;
+}
+
+a
+{
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  transition: color 1s ease 0s;
+}
+/*
+a:hover
+{
+  color: purple;
+}
+*/
+
+/* All classes in html file
+
+???
+
+*/
+
+
+
+header
+{
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+}
+.Header-container
+{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px silver solid;
+  margin-bottom: 20px;
+}
+.Header-name_logo
+{
+  align-items: center;
+  margin: auto;
+}
+
+.Header-name_logo-logo
+{
+
+}
+.Header-name_logo-name
+{
+  margin: 0; /* Because of the h1 margin which is inherited */
+  margin-left: 10px;
+}
+.Header-nav
+{
+  font-size: 1.2em;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+.Header-nav-1, .Header-nav-2, .Header-nav-3, .Header-nav-4, .Header-nav-5
+{
+  padding: 0.3em 1em 0.3em 1em;
+  margin: 0.4em 0.4em;
+  border: 1px black solid;
+  border-radius: 0.3em;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+  transition: box-shadow 1s ease 0s;
+  background-color: rgba(0,0,0,0);
+  transition: background-color 1s ease 0s;
+}
+.Header-nav-1:hover, .Header-nav-2:hover, .Header-nav-3:hover, .Header-nav-4:hover, .Header-nav-5:hover
+{
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+  background-color: rgba(100,0,200,0.1)
+}
+
+
+.Gradiant-spacer
+{
+  width: auto;
+  height: 50px;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.08) 10%, rgba(0,0,0,0))
+}
