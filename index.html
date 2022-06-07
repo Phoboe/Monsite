@@ -1,52 +1,148 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Header 1</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="Logo.png">
+    <title>Mon CV</title>
+    <link rel="stylesheet" href="CV.css">
+    <link type="image/png" sizes="32x32" rel="icon" href="https://img.icons8.com/color/48/undefined/parse-from-clipboard.png">
   </head>
+
+
+
+
   <body>
 
-    <header>
-      <div class="Header-container">
 
-        <div class="Header-name_logo">
-          <div class="Header-name_logo-logo">
-            <img src="Logo.png" alt="logo : logo" width="60" height="60">
-          </div>
-          <div class="Header-name_logo-name">
-            <h1>kinkproject.space</h1>
-          </div>
-        </div>
+    <section id="horizontal_panel">
+      <div class="Hcentered">
+        <h1 class="textCenter">Nina DURIN</h1>
+      </div>
+    </section>
 
-        <div class="Header-nav">
-          <div class="Header-nav-1">
-            <a href="#1">1</a>
-          </div>
-          <div class="Header-nav-2">
-            <a href="#2">2</a>
-          </div>
-          <div class="Header-nav-3">
-            <a href="#3">3</a>
-          </div>
-          <div class="Header-nav-4">
-            <a href="#4">4</a>
-          </div>
-          <div class="Header-nav-5">
-            <a href="#5">5</a>
-          </div>
-        </div>
 
+    <section id="vertical_panel"> <!-- Left vertical panel -->
+      <div id="card">
+        <img src="Photo CV.png" alt="Photo profil" class="Hcentered" id="profilePicture">
+        <p class="Hcentered textCenter italic miniFont">Nationalité Francaise,<br/>née le 05/05/2001</p>
+
+        <p><img src="icons8-accueil-60.png" alt="icone maison" class="icon">94 rue de France, 59100 Roubaix</p>
+        <p><img src="icons8-phone-50.png" alt="icone téléphone" class="icon">06 51 60 98 56</p>
+        <p><img src="icons8-mail-50.png" alt="icone mail" class="icon">contact@durin-nina.fr</p>
       </div>
 
-    </header>
+      <div class="note red">
+        <p class="textCenter bold"><span class="no-spacing">——</span>&ensp; Compétences &ensp;<span class="no-spacing">——</span></p>
+        <p>Service (restauration)</p>
+        <p>Polyvalence caisse</p>
+        <p>Outils de secrétariat</p>
+        <p>Inventaire</p>
+        <p>Secourisme</p>
+        <p>Programmation/codage</p>
+      </div>
 
-    <div class="Gradiant-spacer">
+      <div class="note">
+        <p class="textCenter bold"><span class="no-spacing">———</span>&emsp; Langues &emsp;<span class="no-spacing">———</span></p>
+        <p>Anglais : Niveau C1</p>
+        <p>Espagnol : Niveau B1</p>
+      </div>
 
-    </div>
+      <div class="note">
+        <p class="textCenter bold"><span class="no-spacing">———</span>&emsp; Diplômes &emsp;<span class="no-spacing">———</span></p>
+        <p><a href="Baccalauréat Nina.pdf">Baccalauréat S (2019)</a></p>
+        <p><a href="Certificat SST.pdf">SST</a></p>
+        <p><a href="Certificat CLEA.pdf">Certificat CLEA</a></p>
+      </div>
+
+      <div class="note">
+        <p class="textCenter bold"><span class="no-spacing">———</span>&ensp; Locomotion &ensp;<span class="no-spacing">———</span></p>
+        <p>Permis B</p>
+        <p>Permis Moto</p>
+        <p>Transports en commun</p>
+      </div>
+
+      <div class="note">
+        <p class="textCenter bold"><span class="no-spacing">———</span>&emsp; Intérêts &emsp;<span class="no-spacing">———</span></p>
+        <p>Sciences</p>
+        <p>Informatique</p>
+        <p>Sport</p>
+        <p>Psychologie</p>
+        <p>Photographie</p>
+      </div>
+    </section>
 
 
+    <section id="main">
+      <div class="Vmargin-1em appear-right">
+        <h2 class="textCenter bold">Expériences professionnelles</h2>
+        <div class="fraction-width-container">
+          <div class="demi-width">
+            <li>Restauration : </li>
+            <p><span class="blue">Sept-Nov. 2020 : </span> <mark>Burger-king</mark> Faches-Thumesnil</p>
+            <p><span class="blue">2012-2017 : </span><mark>Aide fréquente</mark> auprès de mes parents <mark>restaurateurs</mark> (restaurant gastronomique <span class="italic">Le Croc Loup</span> au coeur de Bordeaux) </p>
+          </div>
+
+          <div class="demi-width">
+            <li>Secrétariat : </li>
+            <p><span class="blue">Avril-juil. 2021 : </span>Secrétaire médicale au CHU de Bordeaux</p>
+
+            <li>Programmation : </li>
+            <p><span class="blue">2018-2022 : </span><mark>Cours de programmation</mark> à des étudiants et <mark>vente de logiciels</mark> informatiques. </p>
+          </div>
+        </div>
+
+        <div class="fraction-width-container">
+          <div class="demi-width">
+            <p class="red Vcentered"> → compétences : Caisse enregisteruse, service.</p>
+          </div>
+          <div class="demi-width">
+            <p class="red Vcentered"> → compétences : Gestion de patients, création de sites web et de logiciels</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="Vmargin-1em appear-right-delay-2s">
+        <h2 class="textCenter bold">Expérience étudiante</h2>
+        <ul>
+          <li>Cursus scolaire : </li>
+          <ul class="list-style-dash">
+            <li>Ste Marie Bastide : enseignement général scientifique <span class="italic">(2016-2019)</span></li>
+            <li>Première année de <mark>médecine</mark> : Université Catholique de Lille <span class="italic">(2019-2020)</span></li>
+            <li>Première année de <mark>License adaptée et santé</mark> - option Kiné : Université de Lille <span class="italic">(2021-2022)</span></li>
+          </ul>
+
+          <li>Stages : </li>
+          <ul class="list-style-dash">
+            <li>Stage conventionné en <mark>Kinésithérapie</mark> d'une semaine lors de la 3<sup>eme</sup>.</li>
+          </ul>
+        </ul>
+      </div>
+
+
+      <div class="Vmargin-1em appear-right-delay-4s">
+        <h2 class="textCenter bold">Formations personnelles</h2>
+
+        <ul>
+          <li><mark>Service Militaire Volontaire : </mark></li>
+          <ul class="list-style-dash">
+            <li><mark>Classée 3</mark><sup>eme</sup> dans une section de 24 volontaires, selon des critères sportifs, de comportement ainsi que de connaissances militaires.</li>
+          </ul>
+
+          <li>Sport :</li>
+          <ul class="list-style-dash">
+            <li>Cirque : Association bénévole "<span class="italic">Cirque Eclair</span> " à Bordeaux <span class="italic">(2014-2019)</span></li>
+            <li>Gymnastique en compétition et tumbling depuis 2019</li>
+          </ul>
+
+          <li>Sciences :</li>
+          <ul>
+            <li>Adhésion à l'association <span class="italic">Jeunes sciences</span> (JSB) <span class="italic">2016-2018</span> à Bordeaux. </li>
+            <li>Apprentissage professionnalisant du language de programmation Python et HTML5+CSS3 via OpenClassrooms.com et l'association <span class="italic">JSB</span> à 15 ans.</li>
+          </ul>
+        </ul>
+      </div>
+
+    </section>
 
 
   </body>
